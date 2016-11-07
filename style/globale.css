@@ -1,0 +1,157 @@
+	/* line 1, ../sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/style.scss */
+.title {
+  color: #bdc3c7;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+/* line 14, ../sass/style.scss */
+.subtitle {
+  color: #bdc3c7;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+/* line 14, ../sass/style.scss */
+.title a {
+  text-decoration: none;
+  color: #bdc3c7;
+}
+/* line 18, ../sass/style.scss */
+.title:hover a {
+  color: #ecf0f1;
+}
+
+/* line 22, ../sass/style.scss */
+.home {
+  background: #3F0AAD;
+  font-family: helvetica, Arial;
+}
+/* line 25, ../sass/style.scss */
+.home ul.menu {
+  list-style: none;
+  padding: 0;
+}
+/* line 28, ../sass/style.scss */
+.home ul.menu li {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*background: #26056B;*/
+}
+/* line 38, ../sass/style.scss */
+.home ul.menu li a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+
+form {
+  font-family: helvetica, Arial;
+}
+
+form .formulaire {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+form .formulaire input {
+  display: block;
+  width: 100%;
+  height: 60px;
+  background: #3F0AAD;
+  border: none;
+  color : #ecf0f1;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 28px;
+  border-bottom: 2px solid #7042CD;
+}
+
+form .formulaire input:focus {
+  outline: none;
+  border-bottom: 8px solid #7042CD;
+  transition: border-bottom 0.5s;
+}
+
+.btn-formulaire {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.btn-formulaire input {
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background: #3F0AAD;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 28px;
+  border: 2px solid #7042CD;
+  color: #bdc3c7;
+}
+/* line 78, ../sass/style.scss */
+.btn-formulaire:hover input {
+  color: #ecf0f1;
+  background: #7042CD;
+  transition: background 0.5s;
+}
+
+.btn-double {
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: 60px;
+  background: #3F0AAD;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  border: 2px solid #7042CD;
+  color: #bdc3c7;
+}
+
+.btn-double:hover {
+  color: #ecf0f1;
+  background: #7042CD;
+  transition: background 0.5s;
+}
+
+@media only screen and (min-width: 500px) {
+  /* line 92, ../sass/style.scss */
+  body.home, body.connection, body.newuser, body.forget {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
